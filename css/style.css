@@ -359,7 +359,7 @@ body {
 }
 
 .container {
-  width: 144rem;
+  max-width: 144rem;
   margin: 0 auto;
 }
 
@@ -376,8 +376,8 @@ img {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(0, 1fr) 42rem 102rem minmax(0, 1fr);
-      grid-template-columns: minmax(0, 1fr) 42rem 102rem minmax(0, 1fr);
+  -ms-grid-columns: minmax(0, 1fr) minmax(9rem, 42rem) minmax(23rem, 102rem) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) minmax(9rem, 42rem) minmax(23rem, 102rem) minmax(0, 1fr);
   -ms-grid-rows: 12rem 1fr;
       grid-template-rows: 12rem 1fr;
 }
