@@ -1,0 +1,229 @@
+.main
+    padding: 8rem 2.4rem 4rem 3.5rem
+    &-film
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/spaider.jpg)
+        border-radius: 1.6rem
+        // background-image: url(../img/spaider.jpg)
+        height: 20.2rem
+        width: 100%
+        background-size: cover
+        background-position: center center
+        position: relative
+        padding: 1.9rem
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin-bottom: 3.5rem
+        &__views
+            font-style: normal
+            font-weight: 700
+            font-size: 1.6rem
+            line-height: 1.9rem
+        &__name
+            font-style: normal
+            font-weight: 700
+            font-size: 2.4rem
+            line-height: 2.8rem
+        &__relise
+            font-style: normal
+            font-weight: 700
+            font-size: 1.4rem
+            line-height: 1.6rem
+        &__play-btn
+            width: 8rem
+            height: 8rem
+            border-radius: 50%
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            background: rgba(255, 255, 255, 0.07)
+            backdrop-filter: blur(16px)
+            border: none
+        &__play
+            width: 3rem
+            height: 3rem
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-45%, -50%)
+    &-continue
+
+        &__title
+            display: flex
+            justify-content: space-between
+            margin-bottom: 3.6rem
+        &__left
+            font-weight: 400
+            font-size: 2rem
+            line-height: 2.3rem
+        &__name
+            margin-right: 2rem
+
+        &__movies
+            color: rgba(255, 255, 255, 0.2)
+        &__allMovies
+            font-weight: 400
+            font-size: 1.4rem
+            line-height: 1.6rem
+
+            color: rgba(255, 255, 255, 0.2)
+        &__trending
+            margin-bottom: 3.5rem
+            display: flex
+            justify-content: space-between
+            &-block
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/continue.jpg)
+                border-radius: 16px
+                width: 45rem
+                height: 25.1rem
+                background-size: cover
+                padding: 2.3rem 3.2rem
+                position: relative
+            &-block:not(:last-child)
+                margin-right: 10px
+
+            &-title
+                background: rgba(255, 255, 255, 0.3)
+                backdrop-filter: blur(1.6rem)
+                border-radius: 1.6rem
+                width: 12rem
+                height: 2.5rem
+                padding: 0.4rem 1.3rem
+            &-player
+                background: rgba(255, 255, 255, 0.07)
+                backdrop-filter: blur(1.6rem)
+                border-radius: 1.6rem
+                position: absolute
+                bottom: 0
+                left: 0
+                right: 0
+                height: 6.8em
+                padding: 1.9rem
+                display: flex
+                align-items: center
+                justify-content: space-between
+            &-wrap
+                display: flex
+                align-items: center
+            &-playBtn
+                width: 3rem
+                height: 3rem
+                background: rgba(255, 255, 255, 0.1)
+                backdrop-filter: blur(1.6rem)
+                position: relative
+                border-radius: 50%
+                margin-right: 1.5rem
+            &-play
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-45%, -50%)
+                width: 1.1rem
+                height: 1.1rem
+            &-name
+                font-weight: 700
+                font-size: 1.5rem
+                line-height: 1.8rem
+            &-title
+                font-weight: 700
+                font-size: 1rem
+                line-height: 1.2rem
+
+        &__time
+            color: #000
+            background-color: #fff
+            border-radius: 1.6rem
+            padding: 0.4rem 1.2rem
+    &-popular
+        &__title
+            display: flex
+            justify-content: space-between
+            margin-bottom: 3.6rem
+        &__left
+            font-weight: 400
+            font-size: 2rem
+            line-height: 2.3rem
+        &__name
+            margin-right: 2rem
+        &__allMovies
+            font-weight: 400
+            font-size: 1.4rem
+            line-height: 1.6rem
+
+            color: rgba(255, 255, 255, 0.2)
+        &__movies
+            display: flex
+            justify-content: space-between
+            &-part
+                // max-width: 286px
+                // height: 192px
+                // background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/netflix.jpg)
+                // border-radius: 1.6rem
+                // background-size: cover
+.block:not(:last-child)
+    margin-right: 10px
+.block
+    width: 28.6rem
+
+    height: 19.2rem
+    // max-height: 192px
+    // height: 100%
+    position: relative
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/netflix.jpg)
+    border-radius: 1.6rem
+    background-size: cover
+    background-position: center center
+    &-player
+        background: rgba(255, 255, 255, 0.07)
+        backdrop-filter: blur(1.6rem)
+        border-radius: 1.6rem
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        max-height: 3.8em
+        padding: 1.9rem
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-wrap
+        display: flex
+        align-items: center
+    &-playBtn
+        width: 1.8rem
+        height: 1.8rem
+        background: rgba(255, 255, 255, 0.1)
+        backdrop-filter: blur(1.6rem)
+        position: relative
+        border-radius: 50%
+        margin-right: 1.5rem
+    &-play
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-45%, -50%)
+        max-width: 0.66rem
+        max-height: 0.66rem
+    &-name
+        font-weight: 700
+        font-size: 1rem
+        line-height: 1.2rem
+    &-title
+        font-weight: 700
+        font-size: 0.8rem
+        line-height: 0.9rem
+
+    &-star
+        display: flex
+        align-items: center
+        color: #fff
+        &__img
+            width: 1rem
+            height: 1rem
+            margin-right: 0.4rem
+        &__title
+            padding: 0
+            margin: 0
+            font-size: 1rem
+            line-height: 1.2rem
