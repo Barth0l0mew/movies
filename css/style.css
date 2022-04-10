@@ -882,6 +882,270 @@ img {
   line-height: 1.2rem;
 }
 
+.aside-left {
+  width: 2.2rem;
+  height: 2.6rem;
+  background: #FCFCFE;
+  border-radius: 2rem;
+  position: absolute;
+  top: 13.7rem;
+  right: -1.1rem;
+}
+
+.aside-left__img {
+  width: 1.3rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.aside {
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.aside-trailers {
+  padding: 5rem 2.3rem 4rem 2.3rem;
+  border-right: 1px solid #1C1B1F;
+}
+
+.aside-trailers__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.aside-trailers__title-name {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+.aside-trailers__title-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside-trailers__title-sort-name {
+  margin-right: 1.5rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.aside-trailers__title-today {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-right: 0.4rem;
+}
+
+.aside-trailers__title-today-name {
+  margin-right: 0.4rem;
+}
+
+.aside-trailers__title-today-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aside-trailers__title-today-img-up {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.aside-trailers__title-today-img-down {
+  width: 0.6rem;
+  height: 0.6rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.aside-favorits {
+  width: 100%;
+  height: 30rem;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 2.5rem 2.3rem 4rem 2.3rem;
+}
+
+.aside-favorits__title {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+.aside-favorits__ganres {
+  width: 6.5rem;
+  height: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 3rem;
+}
+
+.aside-favorits__ganre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.aside-favorits__ganre-item {
+  background: #2B2A2F;
+  border-radius: 3rem;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.aside-favorits__ganre-item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.aside-favorits__add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.aside-favorits__add-link {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #2B2A2F;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.aside-favorits__add-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 0.8rem;
+}
+
+.aside-favorits__add-title {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.purple {
+  background: #8066F6;
+}
+
+.orange {
+  background: #E1784F;
+}
+
+.blue {
+  background: #63CFE1;
+}
+
+.trailers:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.trailers {
+  width: 37rem;
+  height: 22.6rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/batman.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/batman.jpg);
+  border-radius: 1.5rem;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.9rem;
+  position: relative;
+}
+
+.trailers__views {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.trailers__film-name {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.trailers__film-relise {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.trailers__play-btn {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0;
+  background: rgba(255, 255, 255, 0.07);
+  -webkit-backdrop-filter: blur(1.6rem);
+          backdrop-filter: blur(1.6rem);
+  border-radius: 50%;
+}
+
+.trailers__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
+  width: 3rem;
+  height: 3rem;
+}
+
 @media (max-width: 108em) {
   html {
     font-size: 9px;
