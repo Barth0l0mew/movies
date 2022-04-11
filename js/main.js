@@ -24,3 +24,7 @@ getElement('.header__time-day').innerHTML = `${date.getMonthName()} ${date.getDa
 }
 
 setInterval(time, 1000)
+
+document.querySelectorAll('.play').forEach((el)=>el.addEventListener('click',
+()=>getElement('.modal').classList.remove('active')))
+getElement('.modal').addEventListener('click',()=>getElement('.modal').classList.add('active'))
